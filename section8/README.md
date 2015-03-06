@@ -7,7 +7,7 @@
 >客户端请求格式:
  ```javascript
     data : {
-       classId: "xxx", //课程ID
+       quizId: "xxx", //试题ID
        chat: [ //当前题目聊天内容 格式为数组 里面为多个聊天数据对象.
            {
                own: "xxx", // 发送人 类型
@@ -65,7 +65,7 @@
 
 >```javascript
     data : {
-      classId: "xxx" // 课程ID
+      quizId: "xxx" //试题ID
     }
  ```
  data: 数据为空
@@ -75,7 +75,7 @@
 
 >```javascript
     result : {
-       classId: "xxx", //课程ID
+       quizId: "xxx", //试题ID
        chat: [ //当前题目聊天内容 格式为数组 里面为多个聊天数据对象.
            {
                own: "xxx", // 发送人 类型

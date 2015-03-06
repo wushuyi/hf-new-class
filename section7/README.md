@@ -16,7 +16,7 @@
 >```javascript
     result : {
         classList: [], //此数据格式有待讨论, 前端希望是排列好的数组
-        prevCLass: "xxx" //可有可无 , 如果上一次为异常退出则发送 上次异常课程ID
+        currQuizId: "xxx" //可有可无 , 如果上一次为异常退出则发送 上次异常课程ID
     }
  ```
  data: 上课列表数据

@@ -7,7 +7,7 @@
 >客户端请求格式:
  ```javascript
     data : {
-        classId: "xxx"
+        quizId: "xxx" //试题ID
     }
  ```
   服务端处理:
@@ -15,7 +15,7 @@
 
 >```javascript
     data : {
-        classId: "xxx"
+        quizId: "xxx" //试题ID
     }
  ```
  data: 上课题目所对应的id
